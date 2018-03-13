@@ -1,0 +1,17 @@
+CREATE TABLE `bingo`.`usuarios_bingo` 
+(
+  `idUsuario` INT NOT NULL,
+  
+`Nombre` VARCHAR(45) NOT NULL,
+  
+`Apellidos` VARCHAR(45) NOT NULL,
+ 
+ `Email` VARCHAR(45) NOT NULL,
+ 
+ `Contraseña` LONGTEXT NOT NULL,
+ 
+ PRIMARY KEY (`idUsuario`))
+
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
